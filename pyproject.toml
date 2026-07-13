@@ -3,6 +3,13 @@ name = "pythonproject"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "dashscope>=1.26.2",
+    "langchain",
+    "langchain-agent>=0.1.1",
+    "langchain-community>=0.4.2",
+    "langchain-deepseek",
+    "langchain-tavily>=0.2.18",
+    "langgraph-checkpoint-sqlite>=3.1.0",
     "notebook>=7.6.0",
     "openai>=2.44.0",
     "python-dotenv>=1.2.2",
